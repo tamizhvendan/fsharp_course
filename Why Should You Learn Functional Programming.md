@@ -27,7 +27,7 @@ of creating abstractions does not scale in all the scenarios.
 
 Let us see this code instead of boring theory :relieved:
 
-Lets rewind the time machine to travel back to 2007 (.NET Framework version 3.0) which doesn't have `LINQ` support. You are asked to solve the following problem statement
+Lets rewind the time machine to travel back to 2006 (.NET Framework version 2.0) which doesn't have `LINQ` support. You are asked to solve the following problem statement
 > You are working on a Student Management Applicaiton. Each student is having a name and an age. You are asked to create module to sort the Students based on their name
 
 ```c#
@@ -149,7 +149,7 @@ Let us go back to the initial requirement
 > You are working on a Student Management Applicaiton. Each student is having a name and an age. 
 > You are asked to create module to sort the Students based on their name and age
 
-Now change the time machine to land in 2014. We have `LINQ` support in `C#` now which supports verbs as first class citizens
+Now change the time machine to land in 2014. We have `LINQ` support in `C#` now which supports verbs (functions) as first class citizens
 
 ```c#
 class Program
@@ -165,6 +165,5 @@ class Program
     }
 }
 ```
-
 
  
